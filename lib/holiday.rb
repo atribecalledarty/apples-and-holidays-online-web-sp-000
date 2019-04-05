@@ -73,9 +73,10 @@ def all_supplies_in_holidays(holiday_hash)
       end
       holiday_string += ": "
       #puts holiday.to_s.
-        supplies.each do |supply|
-          
-        end
+      supplies.each do |supply|
+        holiday_string += "#{supply}, " 
+      end
+      holiday_string -= ", "
     end
   end
 end
