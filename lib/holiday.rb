@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
       supplies.each do |supply|
         holiday_string += "#{supply}, " 
       end
-      holiday_string 
+      holiday_string.chomp(", ") 
       puts holiday_string
     end
   end
