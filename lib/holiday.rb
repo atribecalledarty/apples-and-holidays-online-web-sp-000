@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_array.each do |word|
         holiday_string += word.capitalize
       end
-      holiday_string += ":"
+      holiday_string += ": "
       #puts holiday.to_s.
         supplies.each do |supply|
           puts supply
